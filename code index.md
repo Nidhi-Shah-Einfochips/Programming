@@ -2,11 +2,11 @@
 ## Set B 
 Includes the final project of c programming
 ## Data structures includes
-    simple linked list
-    circular linked list
-    double linked list
-    tree traversal
-    binary search tree
+    simple linked list*
+    circular linked list*
+    double linked list*
+    tree traversal*
+    binary search tree*
 ## C++ programing
 Nidhi.zip
 ### Day1:
