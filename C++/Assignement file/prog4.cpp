@@ -9,7 +9,7 @@ int main()
 	string str;
 	int count=0;
 
-	input.open("file4.txt", ios::in|ios::out);
+	input.open("file3.txt", ios::in|ios::out);
 
 	input.seekg(0);
 
