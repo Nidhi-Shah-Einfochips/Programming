@@ -27,7 +27,7 @@ class student
 
 		try
 		{
-			fin.open("student_data_exc.txt", ios::app|ios::binary);
+			fin.open("student.txt", ios::app|ios::binary);
 			if(!fin)
 			{
 				throw 'e';
@@ -54,7 +54,7 @@ class student
 		cin >> id_no;
 		try
 		{
-			fin.open("student_data_exc.txt", ios::in|ios::binary);
+			fin.open("student.txt", ios::in|ios::binary);
 			if(!fin)
 			{
 				throw 'e';
@@ -73,7 +73,7 @@ class student
 
 		fin.close();
 
-		fin.open("student_data_exc.txt", ios::in|ios::binary);
+		fin.open("student.txt", ios::in|ios::binary);
 
 		for(int i=0; i<count-1; i++)
 		{
@@ -116,7 +116,7 @@ class student
 		student su;
 		int count=0;
 
-		f.open("student_data_exc.txt", ios::in|ios::binary);
+		f.open("student.txt", ios::in|ios::binary);
 
 		while(!f.eof())
 		{
@@ -125,7 +125,7 @@ class student
 		}
 		f.close();
 
-		f.open("student_data_exc.txt", ios::in|ios::binary);
+		f.open("student.txt", ios::in|ios::binary);
 		// using counter printing student details
 		for(int i=0; i<count-1; i++)
 		{
