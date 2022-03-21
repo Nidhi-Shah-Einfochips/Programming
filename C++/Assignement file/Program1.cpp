@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-  fstream fin("16_file.txt");
+  fstream fin("program1_file.txt");
   int count = 0;
   char ch[20];
   char c[5]="the";
